@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 253, 249);
+
+  }
+  
+  .signin-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    margin: 20px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar .register-link {
+    text-decoration: none;
+    color: #333333;
+
+    /* width: 100%; */
+    padding: 10px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .signin-form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .signin-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .signin-form p {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-wrapper {
+    position: relative;
+  }
+  
+  .input-wrapper i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+  }
+  
+  .input-wrapper input {
+    width: 91%;
+    padding: 10px 10px 10px 30px; /* Adjust padding for icon */
+    border: 1px solid #ccc;
+    border-radius: 50px; /* Added border-radius */
+  }
+  
+  .forgot-password-link {
+    display: block;
+    text-align: right;
+    margin-bottom: 15px;
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .signin-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 50px; /* Added border-radius */
+    cursor: pointer;
+  }
+  
+  .signin-form p a {
+    color: #333333;
+    text-decoration: none;
+  }
+  .signin-form1{
+    
+  }
+
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ccc;
+  }

@@ -1,0 +1,402 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  
+
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  
+
+
+  .main-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+  }
+  
+  .main-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .main-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .main-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .main-section h1 {
+      font-size: 1.5em;
+    }
+  
+    .main-section p {
+      font-size: 1em;
+    }
+  
+    .main-section button {
+      font-size: 0.9em;
+    }
+  }
+
+  
+
+
+  .house-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .house {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .house img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .house p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .house button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .house-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .house {
+      margin-bottom: 30px;
+    }
+  }
+
+  
+
+
+
+  .footer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .footer h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .footer button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .footer h2 {
+      font-size: 1.5em;
+    }
+  
+    .footer p {
+      font-size: 1em;
+    }
+  
+    .footer button {
+      font-size: 0.9em;
+    }
+  }
+
+  
+  .App {
+    font-family: Arial, sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .App {
+      padding: 10px;
+    }
+  }
+
+  .MainSections {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .text-box {
+    max-width: 50%;
+  }
+  
+  .text-box h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .text-box p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .text-box input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+  }
+  
+  .text-box button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .HouseSections{
+    text-align: center;
+    background-color: white;
+  }
+  
+  .section {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .image-box {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-box {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .text-box h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .text-box p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .text-box button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  .latest-property {
+    padding: 20px;
+  }
+  
+  .latest-property h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .property-listing {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .property {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    /* padding: 20px; */
+    width: 48%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .property-details {
+    text-align: left;
+  }
+  
+  .property-details .tag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .property-details .available {
+    background-color: green;
+  }
+  
+  .property-details .sold {
+    background-color: red;
+  }
+  
+  .property-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .property-details p {
+    margin-bottom: 10px;
+  }
+  
+  .property-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .property-info span {
+    flex: 1 1 45%;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+
+  .footer {
+    background-color: #eae9dd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .footer-social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-social a:hover {
+    color: #007bff;
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #999;
+  }
+  .horizontal-line {
+    border-top: 2px dashed #2f2f2f; /* Dashed line and color */
+    margin: 20px 0;
+    width: 100%; /* Adjust width as needed */
+    margin-left: auto;
+    margin-right: auto; /* Center horizontally */
+  }
+  .navbar {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,58 @@
+.requests-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  .column {
+    width: 48%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .request-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  .request-button, .filter-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .request-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .filter-button {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .request-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filter-button:hover {
+    background-color: #5a6268;
+  }
+  
